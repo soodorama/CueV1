@@ -15,6 +15,7 @@
 		8E2DB14521A0130200915867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E2DB14321A0130200915867 /* LaunchScreen.storyboard */; };
 		8E2DB15021A0130200915867 /* CueV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB14F21A0130200915867 /* CueV1Tests.swift */; };
 		8E2DB15B21A0130200915867 /* CueV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB15A21A0130200915867 /* CueV1UITests.swift */; };
+		8E2DB16921A0156200915867 /* SendRequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2DB16821A0156200915867 /* SendRequestVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8E2DB15621A0130200915867 /* CueV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CueV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E2DB15A21A0130200915867 /* CueV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CueV1UITests.swift; sourceTree = "<group>"; };
 		8E2DB15C21A0130200915867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E2DB16821A0156200915867 /* SendRequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendRequestVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8E2DB13921A0130100915867 /* MainVC.swift */,
+				8E2DB16821A0156200915867 /* SendRequestVC.swift */,
 				8E2DB13B21A0130100915867 /* Main.storyboard */,
 				8E2DB14121A0130200915867 /* Assets.xcassets */,
 				8E2DB13E21A0130100915867 /* CueV1.xcdatamodeld */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E2DB13A21A0130100915867 /* MainVC.swift in Sources */,
+				8E2DB16921A0156200915867 /* SendRequestVC.swift in Sources */,
 				8E2DB14021A0130100915867 /* CueV1.xcdatamodeld in Sources */,
 				8E2DB13821A0130100915867 /* AppDelegate.swift in Sources */,
 			);
