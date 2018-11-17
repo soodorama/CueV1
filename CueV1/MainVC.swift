@@ -15,6 +15,7 @@ class MainVC: UIViewController {
     }
 
     @IBAction func chipotlePressed(_ sender: UIButton) {
+        print("well gosh")
         performSegue(withIdentifier: "ChipotleSegue", sender: sender)
     }
     
