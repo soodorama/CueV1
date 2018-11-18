@@ -51,7 +51,33 @@
                     <view key="view" contentMode="scaleToFill" id="Ycg-pe-mgF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hFg-Av-79V">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <sections>
+                                    <tableViewSection id="fFF-0a-uof">
+                                        <cells>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="hql-YN-EBo">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hql-YN-EBo" id="TfR-CO-8rH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </cells>
+                                    </tableViewSection>
+                                </sections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Pio-3w-pPb" firstAttribute="bottom" secondItem="hFg-Av-79V" secondAttribute="bottom" id="JEV-Cv-kfJ"/>
+                            <constraint firstItem="hFg-Av-79V" firstAttribute="top" secondItem="Pio-3w-pPb" secondAttribute="top" id="KxB-zy-K4m"/>
+                            <constraint firstItem="hFg-Av-79V" firstAttribute="leading" secondItem="Pio-3w-pPb" secondAttribute="leading" id="SCv-Ff-on8"/>
+                            <constraint firstItem="Pio-3w-pPb" firstAttribute="trailing" secondItem="hFg-Av-79V" secondAttribute="trailing" id="kxr-6a-sQ5"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Pio-3w-pPb"/>
                     </view>
                     <navigationItem key="navigationItem" id="RP5-Ca-Kw5">
@@ -61,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAf-9x-1Bp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2676" y="27"/>
+            <point key="canvasLocation" x="2676" y="26.53673163418291"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dyo-9F-qyD">
